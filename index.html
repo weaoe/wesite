@@ -81,6 +81,17 @@
         let secondbox = document.getElementById("secondbox");
         /*
          找所有的东西标签函数
+         let findSiblings = function (tag) {
+            let parent = tag.parentNode;
+            let childs = parent.children;
+            let sb = [];
+            for (let i = 0; i <= childs.length - 1; i++) {
+                if (childs[i] !== tag) {
+                    sb[sb.length] = childs[i];
+                }
+            }
+            return sb;
+        };
         * */
         let findSiblings = function (tag) {
             let parent = tag.parentNode;
